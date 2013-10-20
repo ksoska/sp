@@ -24,7 +24,7 @@ touch rachunki.txt
 4\. Będąc w katalogu wazne-sprawy skopiuj plik rachunki.txt do katalogu zrealizowane.
 
 ```sh
-cp rachunki.txt ~/temp/praca/zlecenia/zrealizowane
+cp rachunki.txt ../../praca/zlecenia/zrealizowane
 ```
 
 5\. Przejdź do katalogu zrealizowane i zmień nazwę pliku rachunki.txt na wykonano.txt.
@@ -41,7 +41,7 @@ W ten sposób otrzymasz 3 pliki. (split)
 
 ```sh
 echo 1234567890 > wykonano.txt
-split -bytes=5 wykonano.txt
+split --bytes=5 wykonano.txt
 ```
 
 7\. Będąc w katalogu logo skopiuj powyżej otrzymane 3 pliki do katalogu dokumenty.
