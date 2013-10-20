@@ -40,7 +40,7 @@ mv rachunki.txt wykonano.txt
 W ten sposób otrzymasz 3 pliki. (split)
 
 ```sh
-echo 12345678901 > wykonano.txt
+echo 1234567890 > wykonano.txt
 split -bytes=5 wykonano.txt
 ```
 
@@ -70,3 +70,14 @@ diff odtworzono.txt ../../praca/zlecenia/zrealizowane/wykonano.txt
 
 10\. Wyświetl kalendarz na październik 2009 r. (cal)
 
+```sh
+cal 10 2009
+
+cal 10 2009 -3
+```
+
+11\. Jaki był dzień tygodnia 25 maja 1975 r.
+
+```sh
+date -d 1975-05-25 +%A
+```
