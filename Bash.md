@@ -74,6 +74,8 @@ diff odtworzono.txt ../../praca/zlecenia/zrealizowane/wykonano.txt
 cal 10 2009
 
 cal 10 2009 -3
+
+cal -3 11 2009 | cut -c 1-43
 ```
 
 11\. Jaki był dzień tygodnia 25 maja 1975 r.
