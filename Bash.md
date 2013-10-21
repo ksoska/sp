@@ -49,7 +49,7 @@ split --bytes=5 wykonano.txt
 ```sh
 cd nauka
 cd logo
-cp ../../praca/zlecenia/zrealizowane/xaa xab xac ../../praca/dokumenty
+cp ../../praca/zlecenia/zrealizowane/xa* ../../praca/dokumenty
 ```
 
 8\. Będąc w katalogu dokumenty połącz skopiowane 3 pliki w plik odtworzono.txt, tak aby otrzymać plik o zawartości
