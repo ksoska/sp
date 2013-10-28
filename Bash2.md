@@ -10,7 +10,11 @@ tail -4 program.c
 ```
 3\.W pliku program.c znajdź wszystkie wiersze z wystąpieniem słowa „main”. (grep)
 ```sh
-cat program.c | grep main
+grep main program.c  - wszystkie linijki z main
+
+grep -w main program.c - tylko osobne slowo main
+
+grep "main\>" program.c - wyrazy konczace sie na main
 ```
 4\.Plikowi program.c nadaj następujące uprawnienia: właściciel – czytanie, pisanie, grupa – czytanie, pozostali użytkownicy: brak uprawnień. (chmod)
 ```sh
