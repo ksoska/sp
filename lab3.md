@@ -36,6 +36,10 @@ echo $x |wc
 ```
 cat plik.txt | tr " \t" "\n"
 ```
+7a\. Zastapienie kilku kolejnych bialych znakow nowa linia (jedna spacja).
+```
+
+```
 8\. Zlicz wszystkie pliki znajdujące się w katalogu /etc i jego podkatalogach.
 ```
 ls -a /etc | wc -l
