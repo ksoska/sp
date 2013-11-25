@@ -17,7 +17,7 @@ find /etc \( -type f -and -name a* \) -or \( -type d -and ! -empty \) 2> /dev/nu
 ```
 5\. Z bieżącego katalogu usuń pliki, których nazwa zaczyna się na literę „x” i zawiera dokładnie trzy znaki.
 ```
-rm x
+rm x??
 ```
 6\. Skonstruuj polecenie tworzące katalog, którego nazwą będzie aktualna (w momencie wywołania) systemowa data w formacie rrrr-mm-dd.
 ```
