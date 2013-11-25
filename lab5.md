@@ -13,7 +13,8 @@ find ~ -matime -20 -+type f
 ```
 4\. Znajdź w katalogu /etc wszystkie niepuste podkatalogi i pliki o nazwach zaczynających się na literę „a”.
 ```
-
+find /etc \( -type f -and -name a* \) -or \( -type d -and ! -empty \) 2> /dev/null
+find \( -type d -and ! -empty \) -or -name "a*"
 ```
 5\. Z bieżącego katalogu usuń pliki, których nazwa zaczyna się na literę „x” i zawiera dokładnie trzy znaki.
 ```
