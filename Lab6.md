@@ -1,6 +1,6 @@
 Laboratorium 6 
 
-1\. W pliku plik.txt znajdź wiersze zawierające co najmniej jeden znak.
+1\. W pliku *plik.txt* znajdź wiersze zawierające co najmniej jeden znak.
 ```
 grep . plik.txt
 ```
@@ -16,7 +16,7 @@ grep -E -r '^.{8}r.*' *
 ```
 grep -c bash /etc/passwd
 ```
-5\. Znajdź wiersze zawierające liczby rzymskie w pliku plik.txt.
+5\. Znajdź wiersze zawierające liczby rzymskie w pliku *plik.txt.*
 
 ```
 grep [IVXLCDM] plik.txt
