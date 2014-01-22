@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int qq(int n, int k) {
+	int i, x=0; //"x"- to SUMA
+	if (n==0)	{
+		return 0;
+	}
+	else {
+		for(i=0;i<=(k-1);i++){
+			x=x+(i*i);
+		}
+	return qq(n-1,k)+x;
+	}
+} 
+
+int main () {
+	int n, k;
+	printf("Podaj n\n");
+	scanf("%i", &n);
+
+	printf("Podaj k\n");
+	scanf("%i", &k);
+
+	if (n<0 || k<0) {
+		printf("Liczby musza byc wieksza badz rowne 0- BLAD\n");
+		return 0;
+	}
+
+	printf("%i", qq(n,k));
+return 0;
+}
